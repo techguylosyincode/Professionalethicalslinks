@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Hub Nigeria - Software Reviews & MTN USSD Codes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --brand-primary: #0b5394;
+            --brand-secondary: #22a45d;
+            --neutral-100: #f5f7fa;
+            --neutral-900: #1a1d23;
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--neutral-100);
+            color: #1d1d1f;
+            font-family: inherit;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--brand-primary), #184a9f 45%, #1f3068 100%);
+            color: white;
+            padding: 4rem 1.5rem 3rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 auto 1rem;
+            max-width: 48rem;
+            font-size: clamp(2.25rem, 4vw, 3rem);
+            letter-spacing: -0.02em;
+        }
+
+        header p {
+            margin: 0 auto 1.5rem;
+            max-width: 42rem;
+            font-size: 1.1rem;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: none;
+            padding: 0.85rem 1.75rem;
+            border-radius: 999px;
+            background: white;
+            color: var(--brand-primary);
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cta-button:hover,
+        .cta-button:focus-visible {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px -12px rgba(17, 24, 39, 0.45);
+        }
+
+        nav {
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 6px 16px -12px rgba(30, 41, 59, 0.4);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0.9rem 1.5rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--brand-primary);
+            font-weight: 600;
+        }
+
+        main {
+            margin: 0 auto;
+            max-width: 1100px;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 24px;
+            box-shadow: 0 24px 48px -32px rgba(15, 23, 42, 0.28);
+        }
+
+        section h2 {
+            margin-top: 0;
+            font-size: clamp(1.65rem, 3vw, 2.25rem);
+            color: var(--brand-primary);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.75rem;
+        }
+
+        .card {
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            border-radius: 20px;
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            background: linear-gradient(180deg, rgba(11, 83, 148, 0.03), rgba(255, 255, 255, 0.95));
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 1.35rem;
+            color: var(--brand-primary);
+        }
+
+        .card p {
+            margin: 0;
+            color: #3f3f46;
+        }
+
+        .card a {
+            align-self: flex-start;
+            padding: 0.65rem 1.35rem;
+            border-radius: 999px;
+            background: rgba(34, 164, 93, 0.14);
+            color: var(--brand-secondary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s ease;
+        }
+
+        .card a:hover,
+        .card a:focus-visible {
+            background: rgba(34, 164, 93, 0.24);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+        }
+
+        table th,
+        table td {
+            padding: 0.75rem 0.9rem;
+            border: 1px solid rgba(30, 41, 59, 0.12);
+            text-align: left;
+        }
+
+        table th {
+            background: rgba(11, 83, 148, 0.09);
+            color: var(--brand-primary);
+        }
+
+        .highlight {
+            background: rgba(34, 164, 93, 0.12);
+            border-left: 4px solid var(--brand-secondary);
+            padding: 1rem 1.25rem;
+            border-radius: 12px;
+            margin-top: 1.5rem;
+        }
+
+        .resource-list {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .resource-item {
+            border-radius: 18px;
+            padding: 1.5rem;
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            background: linear-gradient(180deg, rgba(34, 164, 93, 0.06), rgba(255, 255, 255, 0.95));
+        }
+
+        .resource-item h3 {
+            margin-top: 0;
+            color: var(--brand-secondary);
+        }
+
+        .resource-item ul {
+            margin: 0.75rem 0 0;
+            padding-left: 1.1rem;
+        }
+
+        footer {
+            background: #0f172a;
+            color: rgba(255, 255, 255, 0.82);
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #58c5ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        @media (max-width: 640px) {
+            header {
+                padding: 3rem 1.25rem 2.5rem;
+            }
+
+            section {
+                padding: 2rem;
+            }
+
+            nav ul {
+                gap: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Professional Hub Nigeria</h1>
+        <p>Your trusted source for vetted software reviews, telecom shortcuts, and emerging Nigerian tech trends. Jump from evaluations to instant MTN tips without missing a beat.</p>
+        <a class="cta-button" href="#mtn-ussd">Explore MTN USSD Toolkit →</a>
+    </header>
+
+    <nav aria-label="Primary navigation">
+        <ul>
+            <li><a href="#software-reviews">Software Reviews</a></li>
+            <li><a href="#mtn-ussd">MTN Nigeria USSD Codes</a></li>
+            <li><a href="#nigeria-tech-resources">Nigeria Tech Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="software-reviews" aria-labelledby="software-reviews-heading">
+            <h2 id="software-reviews-heading">Top Software Reviews for Professionals</h2>
+            <p>Compare the most reliable platforms used by Nigerian founders, analysts, and project teams. Each review features a quick link to the MTN and tech resources sections so you can transition from app discovery to telecom support or market research effortlessly.</p>
+
+            <div class="grid" role="list">
+                <article class="card" role="listitem">
+                    <h3>WorkspaceOS (Project Suite)</h3>
+                    <p>WorkspaceOS unifies kanban boards, OKR tracking, and executive dashboards in a single workspace. Ideal for hybrid teams that need simple automation and insight-rich reports.</p>
+                    <a href="#mtn-ussd">Get MTN quick codes</a>
+                </article>
+                <article class="card" role="listitem">
+                    <h3>SecurePayFlow (Fintech Operations)</h3>
+                    <p>A PCI-compliant collections and disbursement tool tailored for African fintechs. Offers bulk payments, dynamic virtual accounts, and reconciliation automation.</p>
+                    <a href="#nigeria-tech-resources">Explore fintech add-ons</a>
+                </article>
+                <article class="card" role="listitem">
+                    <h3>Insight360 BI</h3>
+                    <p>Business intelligence platform with drag-and-drop dashboards, OLAP cubes, and native data connectors to Nigerian banks and telcos.</p>
+                    <a href="#mtn-ussd">Check balance shortcuts</a>
+                </article>
+            </div>
+
+            <div class="highlight" role="note">
+                <strong>Need telecom support during deployments?</strong> Jump to the <a href="#mtn-ussd">MTN USSD Toolkit</a> for quick recharge and data tips, or review broadband recommendations inside the <a href="#nigeria-tech-resources">Nigeria Tech Resources</a> hub.
+            </div>
+        </section>
+
+        <section id="mtn-ussd" aria-labelledby="mtn-ussd-heading">
+            <h2 id="mtn-ussd-heading">MTN Nigeria USSD Toolkit</h2>
+            <p>Keep your MTN line ready for client demos, remote work, and product support. These USSD combinations work on feature phones and smartphones alike, even without data connectivity.</p>
+
+            <table aria-describedby="mtn-ussd-heading">
+                <caption>Essential MTN USSD Commands</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Action</th>
+                        <th scope="col">USSD Code</th>
+                        <th scope="col">Quick Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Recharge airtime from scratch card</td>
+                        <td><code>*555*PIN#</code></td>
+                        <td>PIN is the 12-digit number on your MTN recharge card. Confirm balance afterwards with <code>*556#</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Borrow airtime (XtraTime)</td>
+                        <td><code>*606#</code></td>
+                        <td>Pick a borrowing option and repay automatically on your next recharge.</td>
+                    </tr>
+                    <tr>
+                        <td>Buy data bundle</td>
+                        <td><code>*312#</code></td>
+                        <td>Follow prompts for daily, weekly, monthly plans, or streaming bundles.</td>
+                    </tr>
+                    <tr>
+                        <td>Check data balance</td>
+                        <td><code>*323#</code> or <code>*310#</code></td>
+                        <td>Both codes show remaining data volume and expiry date instantly.</td>
+                    </tr>
+                    <tr>
+                        <td>Check airtime balance</td>
+                        <td><code>*310#</code></td>
+                        <td>Displays current airtime and bonus balances.</td>
+                    </tr>
+                    <tr>
+                        <td>MTN customer care</td>
+                        <td><code>*300#</code> or call <code>300</code></td>
+                        <td>Ideal for resolving service disruptions or SIM swap updates.</td>
+                    </tr>
+                    <tr>
+                        <td>Share airtime (Share &#38; Sell)</td>
+                        <td><code>*321*Recipient Number*Amount*PIN#</code></td>
+                        <td>Default PIN is 0000; change it via <code>*321*2#</code> for security.</td>
+                    </tr>
+                    <tr>
+                        <td>Link NIN (National Identity Number)</td>
+                        <td><code>*996#</code></td>
+                        <td>Keep your line compliant; follow prompts to submit or update your NIN.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight" role="complementary">
+                <h3>Pro tips</h3>
+                <ul>
+                    <li>Save the USSD codes as contacts (e.g., “MTN Data”) to dial them faster during remote troubleshooting.</li>
+                    <li>Bookmark the <a href="#nigeria-tech-resources">Nigeria Tech Resources hub</a> for backup broadband and fintech tools that extend these telecom workflows.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="nigeria-tech-resources" aria-labelledby="nigeria-tech-resources-heading">
+            <h2 id="nigeria-tech-resources-heading">Nigeria Tech Resources Companion</h2>
+            <p>Broaden your stack beyond telecom support. These curated resources help Nigerian professionals evaluate broadband, finance operations, and productivity apps alongside the software reviews above.</p>
+
+            <div class="resource-list">
+                <article class="resource-item">
+                    <h3>Broadband &amp; Connectivity Comparisons</h3>
+                    <ul>
+                        <li><strong>ISP Price Watch:</strong> Compare fibre and fixed wireless plans from MTN, Airtel, Spectranet, Smile, and Tizeti, including installation fees and FUP details.</li>
+                        <li><strong>4G/5G Coverage Heatmaps:</strong> Crowd-sourced reports from Lagos, Abuja, Port Harcourt, and Kano with recommended routers.</li>
+                        <li><strong>Backup Power Tips:</strong> Inverter and UPS calculators to keep routers and laptops alive during outages.</li>
+                    </ul>
+                    <a class="cta-button" href="#software-reviews">Return to software picks</a>
+                </article>
+
+                <article class="resource-item">
+                    <h3>Fintech &amp; Payment Utilities</h3>
+                    <ul>
+                        <li><strong>Expense automation:</strong> Compare Bento, Mono Expense, and PayDay for payroll, reimbursements, and cross-border payouts.</li>
+                        <li><strong>Virtual card round-up:</strong> Evaluate Chipper Cash, Paga, and Kuda for online subscription payments in USD.</li>
+                        <li><strong>Invoice generators:</strong> Templates and SaaS options that integrate with MTN MoMo for instant settlement.</li>
+                    </ul>
+                    <a class="cta-button" href="#mtn-ussd">Pair with MTN shortcuts</a>
+                </article>
+
+                <article class="resource-item">
+                    <h3>Developer &amp; Startup Ecosystem</h3>
+                    <ul>
+                        <li><strong>Tech hub directory:</strong> Co-working spaces and accelerators (CcHub, Ventures Platform, Founders Factory Africa) with contact details.</li>
+                        <li><strong>API marketplaces:</strong> Aggregated APIs from Nigerian banks, telcos, and logistics startups for quick integrations.</li>
+                        <li><strong>Community updates:</strong> Weekly newsletters, meetups, and hackathons to stay plugged into the ecosystem.</li>
+                    </ul>
+                    <a class="cta-button" href="#software-reviews">Compare more software</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built for Nigerian professionals navigating software stacks and telecom essentials in one destination.</p>
+        <p><a href="#software-reviews">Back to top tools</a> • <a href="#mtn-ussd">MTN Toolkit</a> • <a href="#nigeria-tech-resources">Tech Resources</a></p>
+    </footer>
+</body>
+</html>
